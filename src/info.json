@@ -4,19 +4,22 @@
       "name": "Leather Wallet",
       "price": 49.99,
       "description": "A premium leather wallet with RFID blocking.",
-      "imageUrl": "/images/wallets/1.jpg"
+      "imageUrl": "/images/wallets/1.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     },
     {
       "name": "Vintage Watch",
       "price": 199.99,
       "description": "A classic vintage watch with a leather strap.",
-      "imageUrl": "/images/wallets/2.jpg"
+      "imageUrl": "/images/wallets/2.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     },
     {
       "name": "Fountain Pen",
       "price": 29.99,
       "description": "An elegant fountain pen for smooth writing experience.",
-      "imageUrl": "/images/wallets/3.jpg"
+      "imageUrl": "/images/wallets/3.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     }
   ],
   "boxes": [
@@ -24,19 +27,22 @@
       "name": "Storage Box",
       "price": 24.99,
       "description": "A sturdy storage box made of durable plastic.",
-      "imageUrl": "/images/boxes/1.jpg"
+      "imageUrl": "/images/boxes/1.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     },
     {
       "name": "Vintage Wooden Crate",
       "price": 89.99,
       "description": "A vintage wooden crate, perfect for home decor or storage.",
-      "imageUrl": "/images/boxes/2.jpg"
+      "imageUrl": "/images/boxes/2.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     },
     {
       "name": "Toolbox",
       "price": 59.99,
       "description": "A large metal toolbox with a secure lock for heavy-duty use.",
-      "imageUrl": "/images/boxes/3.jpg"
+      "imageUrl": "/images/boxes/3.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     }
   ],
   "ashtrays": [
@@ -44,31 +50,36 @@
       "name": "Ceramic Ashtray",
       "price": 15.99,
       "description": "A stylish ceramic ashtray with a smooth finish, ideal for home use.",
-      "imageUrl": "/images/ashtray/1.jpg"
+      "imageUrl": "/images/ashtray/1.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     },
     {
       "name": "Metallic Outdoor Ashtray",
       "price": 25.99,
       "description": "A durable metallic ashtray, perfect for outdoor spaces.",
-      "imageUrl": "/images/ashtray/2.jpg"
+      "imageUrl": "/images/ashtray/2.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     },
     {
       "name": "Glass Ashtray",
       "price": 12.99,
       "description": "A classic round glass ashtray, easy to clean and perfect for indoor use.",
-      "imageUrl": "/images/ashtray/3.jpg"
+      "imageUrl": "/images/ashtray/3.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     },
     {
       "name": "Glass Ashtray1",
       "price": 12.99,
       "description": "A classic round glass ashtray, easy to clean and perfect for indoor use.",
-      "imageUrl": "/images/ashtray/4.jpg"
+      "imageUrl": "/images/ashtray/4.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     },
     {
       "name": "Glass Ashtray2",
       "price": 12.99,
       "description": "A classic round glass ashtray, easy to clean and perfect for indoor use.",
-      "imageUrl": "/images/ashtray/5.jpg"
+      "imageUrl": "/images/ashtray/5.jpg",
+      "buyUrl": "https://meshulam.co.il/purchase?b=78f57726db8dd92503710ea02e2af4d2"
     }
   ]
 }

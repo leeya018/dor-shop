@@ -7,6 +7,7 @@ interface ItemCardListProps {
 }
 
 const ItemCardList: React.FC<ItemCardListProps> = ({ items }) => {
+  console.log({ items });
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
       {items.map((item, index) => (
@@ -16,6 +17,7 @@ const ItemCardList: React.FC<ItemCardListProps> = ({ items }) => {
           price={item.price}
           description={item.description}
           imageUrl={item.imageUrl}
+          buyUrl={item.buyUrl}
         />
       ))}
     </div>

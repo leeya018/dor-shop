@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 interface ItemProps {
@@ -5,6 +6,7 @@ interface ItemProps {
   price: number;
   description: string;
   imageUrl: string;
+  buyUrl: string;
 }
 
 const ItemCard: React.FC<ItemProps> = ({
@@ -12,6 +14,7 @@ const ItemCard: React.FC<ItemProps> = ({
   price,
   description,
   imageUrl,
+  buyUrl,
 }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
@@ -30,9 +33,11 @@ const ItemCard: React.FC<ItemProps> = ({
 
       {/* Button */}
       <div className="px-6 py-4">
-        <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
-          Add to Cart
-        </button>
+        <Link href={buyUrl} target="_blank">
+          <span className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+            Add to Cart
+          </span>
+        </Link>
       </div>
     </div>
   );
