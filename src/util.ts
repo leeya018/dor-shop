@@ -40,6 +40,13 @@ export const slides: Slide[] = [
 
   // Add more slides as needed
 ];
+
+export const Options = {
+  wallets: "wallets",
+  boxes: "boxes",
+  ashtrays: "ashtrays",
+};
+
 interface Creator {
   image: string;
   name: string;
