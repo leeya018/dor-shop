@@ -1,4 +1,4 @@
-import { creator } from "@/util";
+import { creator, creatorDesc } from "@/util";
 import React from "react";
 
 const CreatorCard = ({}) => {
@@ -9,21 +9,14 @@ const CreatorCard = ({}) => {
     >
       <div className="flex-none md:flex-1 order-2">
         <img
-          src={creator.image}
-          alt={`${creator.name}'s picture`}
+          src="/images/profile.jpg"
+          alt={` picture of creator`}
           className="w-full  object-cover"
         />
       </div>
       <div className="flex-none md:flex-1 order-1 text-right">
-        <h2 className="text-xl font-bold mb-4">{creator.name}</h2>
-        <ul>
-          {creator.description.map((desc, key) => (
-            <li key={key}>
-              <div>{desc}</div>
-              <br />
-            </li>
-          ))}
-        </ul>
+        <h2 className="text-xl font-bold mb-4">Dor</h2>
+        <div>{creatorDesc}</div>
       </div>
     </div>
   );
