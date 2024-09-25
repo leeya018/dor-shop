@@ -1,8 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Slideshow from "../components/Slideshow";
-import { creator, Options, postList, songList } from "@/util";
-import SongCard from "@/components/SongCard";
+import { Options } from "@/util";
 import Footer from "@/components/Footer";
 import CreatorCard from "@/components/CreatorCard";
 import PostCard from "@/components/postCard";
