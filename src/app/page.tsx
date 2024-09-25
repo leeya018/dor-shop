@@ -8,7 +8,7 @@ import PostCard from "@/components/postCard";
 import ToggleComponents from "@/components/ToggleComponents";
 import ItemCard from "@/components/ItemCard";
 import ItemCardList from "@/components/ItemCardList";
-
+// enirentsientsre
 import info from "@/info.json";
 import { Item } from "@/interfaces/Item";
 import { Info } from "@/interfaces/Info";
